@@ -19,6 +19,8 @@
 		880604E61A9A635E006C4585 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880604CE1A9A635E006C4585 /* UIKit.framework */; };
 		880604EE1A9A635E006C4585 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 880604EC1A9A635E006C4585 /* InfoPlist.strings */; };
 		880604F01A9A635E006C4585 /* ios_hello_worldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 880604EF1A9A635E006C4585 /* ios_hello_worldTests.m */; };
+		880604FC1A9A651C006C4585 /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 880604FA1A9A651C006C4585 /* HelloWorldViewController.m */; };
+		880604FD1A9A651C006C4585 /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880604FB1A9A651C006C4585 /* HelloWorldViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		880604EB1A9A635E006C4585 /* ios_hello_worldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios_hello_worldTests-Info.plist"; sourceTree = "<group>"; };
 		880604ED1A9A635E006C4585 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		880604EF1A9A635E006C4585 /* ios_hello_worldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_hello_worldTests.m; sourceTree = "<group>"; };
+		880604F91A9A651C006C4585 /* HelloWorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		880604FA1A9A651C006C4585 /* HelloWorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		880604FB1A9A651C006C4585 /* HelloWorldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloWorldViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				880604DA1A9A635E006C4585 /* AppDelegate.m */,
 				880604DC1A9A635E006C4585 /* Images.xcassets */,
 				880604D11A9A635E006C4585 /* Supporting Files */,
+				880604F91A9A651C006C4585 /* HelloWorldViewController.h */,
+				880604FA1A9A651C006C4585 /* HelloWorldViewController.m */,
+				880604FB1A9A651C006C4585 /* HelloWorldViewController.xib */,
 			);
 			path = ios_hello_world;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				880604D51A9A635E006C4585 /* InfoPlist.strings in Resources */,
 				880604DD1A9A635E006C4585 /* Images.xcassets in Resources */,
+				880604FD1A9A651C006C4585 /* HelloWorldViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				880604DB1A9A635E006C4585 /* AppDelegate.m in Sources */,
+				880604FC1A9A651C006C4585 /* HelloWorldViewController.m in Sources */,
 				880604D71A9A635E006C4585 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
